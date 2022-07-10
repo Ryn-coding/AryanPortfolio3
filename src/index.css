@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400&family=Spline+Sans+Mono:wght@300;400;500&family=Tiro+Bangla:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+h1 {
+  color: royalblue;
+}
+h4,
+p,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  border: 1px solid #222;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #fff;
+  color: #222;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
